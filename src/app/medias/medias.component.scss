@@ -1,0 +1,10 @@
+.types-item {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #eee;
+  &.active {
+    border-bottom: 1px gold solid;
+    color: gold;
+  }
+}

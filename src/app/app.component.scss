@@ -1,0 +1,40 @@
+.main-menu {
+  margin: 0 0 20px 0;
+  padding: 0;
+  background-color: #3c4043;
+  border-bottom: 2px #5f6368 solid;
+  li {
+    display: inline;
+    .active {
+      // background-color: #8ab4f8;
+      background-color: gold;
+      color: #3c4043;
+    }
+    a {
+      display: inline-block;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      &:hover {
+        // background-color: #8ab4f8;
+        background-color: goldenrod;
+        color: black;
+      }
+    }
+  }
+}
+.container {
+  margin-bottom: 10rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  background-color: #3c4043;
+  width: 100%;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: gold;
+  }
+}
